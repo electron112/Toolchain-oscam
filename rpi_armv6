@@ -1,0 +1,20 @@
+_toolchainname="rpi_armv6";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Raspberry Pi Zero W|WH, 1 Model A|A+|B|B+";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="armv6-rpi1-linux-gnueabihf-";
+_sysroot="armv6-rpi1-linux-gnueabihf/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="cnBpX2FybXY2LnRhci54ego=";
+_md5sum="3c3d8ceb7941aba84f5f2443d79915f3  Toolchain-rpi_armv6.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Raspberry Pi Zero W|WH, 1 Model A|A+|B|B+\n
+arm arm1176jzf-s 32-bit LE, glibc 2.31, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

@@ -1,0 +1,20 @@
+_toolchainname="rpi_armv8";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Raspberry Pi 2 Model B v1.2, 3 Modell A+|B|B+, 4 Model B";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="armv8-rpi3-linux-gnueabihf-";
+_sysroot="armv8-rpi3-linux-gnueabihf/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="cnBpX2FybXY4LnRhci54ego=";
+_md5sum="5388a33e0257e38c92242e19a933a311  Toolchain-rpi_armv8.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Raspberry Pi 2 Model B v1.2, 3 Modell A+|B|B+, 4 Model B\n
+arm cortex-a53 32-bit LE, glibc 2.31, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

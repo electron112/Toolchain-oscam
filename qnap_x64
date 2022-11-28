@@ -1,0 +1,20 @@
+_toolchainname="qnap_x64";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="QNAP x64 devices";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="x86_64-qnap-linux-gnu-";
+_sysroot="x86_64-qnap-linux-gnu/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="cW5hcF94NjQudGFyLnh6Cg==";
+_md5sum="f79fd2323c4cddb97b8fba41852bc441  Toolchain-qnap_x64.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+QNAP x64 devices\n
+x86 64-bit , glibc 2.23, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

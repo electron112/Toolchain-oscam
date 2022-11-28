@@ -1,0 +1,20 @@
+_toolchainname="synology_armv5";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Synology Marvell 628x devices, Synology DS112x";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="arm-synology-linux-gnueabi-";
+_sysroot="arm-synology-linux-gnueabi/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="c3lub2xvZ3lfYXJtdjUudGFyLnh6Cg==";
+_md5sum="d8afb0c5ba5332cf5861cf25cf5d1ed9  Toolchain-synology_armv5.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Synology Marvell 628x devices, Synology DS112x\n
+arm armv5te 32-bit LE, glibc 2.31, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

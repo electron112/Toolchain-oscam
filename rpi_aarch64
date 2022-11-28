@@ -1,0 +1,20 @@
+_toolchainname="rpi_aarch64";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Raspberry Pi 3 Modell B+, 4 Model B";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="aarch64-rpi3-linux-gnu-";
+_sysroot="aarch64-rpi3-linux-gnu/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="cnBpX2FhcmNoNjQudGFyLnh6Cg==";
+_md5sum="c7ef2f1d36058fd8297d8b517f4afb0a  Toolchain-rpi_aarch64.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Raspberry Pi 3 Modell B+, 4 Model B\n
+aarch64 cortex-a53 64-bit LE, glibc 2.31, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

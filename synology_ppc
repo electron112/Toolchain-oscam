@@ -1,0 +1,20 @@
+_toolchainname="synology_ppc";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Synology DS213+";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="powerpc-ds213+-linux-gnuspe-";
+_sysroot="powerpc-ds213+-linux-gnuspe/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="c3lub2xvZ3lfcHBjLnRhci54ego=";
+_md5sum="e337dbf40f5ec4a296eac65437119a23  Toolchain-synology_ppc.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Synology DS213+\n
+powerpc 8548 32-bit BE, glibc 2.23, gcc 7.5.0, linux 5.16.9\n";
+_tc_infolines="5";

@@ -1,0 +1,20 @@
+_toolchainname="synology_aarch64";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Synology DS418";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="aarch64-ds418-linux-gnu-";
+_sysroot="aarch64-ds418-linux-gnu/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="c3lub2xvZ3lfYWFyY2g2NC50YXIueHoK";
+_md5sum="b1c077bd83010944759a738ec57e2bd8  Toolchain-synology_aarch64.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Synology DS418\n
+aarch64 64-bit LE, glibc 2.25, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

@@ -1,0 +1,20 @@
+_toolchainname="owrt_mpc85xx_ppc";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="OpenWrt 19.07|21.02 mpc85xx, Freescale MPC85xx BE devices";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="powerpc-mpc85xx-linux-musl-";
+_sysroot="powerpc-mpc85xx-linux-musl/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="b3dydF9tcGM4NXh4X3BwYy50YXIueHoK";
+_md5sum="f39ae8ac9dad2e1871218493d095ebce  Toolchain-owrt_mpc85xx_ppc.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+OpenWrt 19.07|21.02 mpc85xx, Freescale MPC85xx BE devices\n
+powerpc 32-bit BE, musl 1.1.24, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

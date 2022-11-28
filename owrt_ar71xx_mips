@@ -1,0 +1,20 @@
+_toolchainname="owrt_ar71xx_mips";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="OpenWrt 18.06 ar71xx, mips_24kc BE devices";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="mips-ar71xx-linux-musl-";
+_sysroot="mips-ar71xx-linux-musl/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="b3dydF9hcjcxeHhfbWlwcy50YXIueHoK";
+_md5sum="af418fab9f6bf284d327f6df98c694f4  Toolchain-owrt_ar71xx_mips.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+OpenWrt 18.06 ar71xx, mips_24kc BE devices\n
+mips mips1 32-bit BE, musl 1.1.19, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

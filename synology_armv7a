@@ -1,0 +1,20 @@
+_toolchainname="synology_armv7a";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="Synology Marvell ARMADA 375 devices, Synology DS115";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="arm-marvell-linux-gnueabi-";
+_sysroot="arm-marvell-linux-gnueabi/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="c3lub2xvZ3lfYXJtdjdhLnRhci54ego=";
+_md5sum="b41b43c1cb4186ab5cd91046d82aeea6  Toolchain-synology_armv7a.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+Synology Marvell ARMADA 375 devices, Synology DS115\n
+arm armv7-a 32-bit LE, glibc 2.23, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";

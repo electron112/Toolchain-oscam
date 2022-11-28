@@ -1,0 +1,20 @@
+_toolchainname="owrt_ramips_mips";
+default_use="USE_UTF8 USE_LIBCRYPTO";
+extra_use="";
+extra_cc="";
+extra_ld="";
+_description="OpenWrt 19.07|21.02 ramips, Mediatek/Ralink mips_24kc LE devices";
+_oscamconfdir_default="/etc/tuxbox/config";
+_oscamconfdir_custom="";
+_self_build="yes";
+_compiler="mipsel-ramips-linux-musl-";
+_sysroot="mipsel-ramips-linux-musl/sysroot";
+_libsearchdir="/usr/lib";
+_toolchainfilename="b3dydF9yYW1pcHNfbWlwcy50YXIueHoK";
+_md5sum="2ab7196d9b4437d07e63d7e5ddcef67c  Toolchain-owrt_ramips_mips.tar.xz";
+_tc_info="\n
+!!! crosstool-NG Toolchain !!!\n
+\n
+OpenWrt 19.07|21.02 ramips, Mediatek/Ralink mips_24kc LE devices\n
+mips mips1 32-bit LE, musl 1.1.24, gcc 11.2.0, linux 5.16.9\n";
+_tc_infolines="5";
